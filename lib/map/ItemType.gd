@@ -1,4 +1,4 @@
-class_name ItemType extends Node
+class_name ItemType extends Object
 
 const Util = preload("res://lib/map/Util.gd")
 

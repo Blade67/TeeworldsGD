@@ -1,6 +1,13 @@
-class_name InfoItem extends Node
+class_name InfoItem extends Object
 
 const Util = preload("res://lib/map/Util.gd")
+
+var version: int = 0
+var author: String
+var map_version: int
+var credits: String
+var license: String
+var settings: Array
 
 func _init(buffer: PackedByteArray, data: Array) -> void:
     self.version = Util._get_int(buffer)

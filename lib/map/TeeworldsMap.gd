@@ -4,8 +4,8 @@ const Util = preload("res://lib/map/Util.gd")
 
 var version_header: VersionHeader
 var header: Header
-var version_item: VersionItem
-var info_item: InfoItem
+var version: int
+var map_info: InfoItem
 
 
 func _init(_version_header: VersionHeader, _header: Header, _version_item: VersionItem, _info_item: InfoItem) -> void:
