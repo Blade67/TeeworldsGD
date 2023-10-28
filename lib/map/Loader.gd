@@ -1,15 +1,8 @@
 extends Object
 
-# You may need to import other classes or global scripts if they are in different files.
-# Example:
-# const VersionHeader = preload("res://path_to/VersionHeader.gd")
-# const Header = preload("res://path_to/Header.gd")
-# ...
-
 const Util = preload("res://lib/map/Util.gd")
 const MapItemTypes = preload("res://lib/map/Types.gd").MapItemTypes
 
-#var zlib = preload("res://path_to/zlib.gd")  # Assuming zlib.gd is a wrapper around zlib functionalities
 
 class Loader:
     var item_offsets: Array = []
